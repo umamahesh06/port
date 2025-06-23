@@ -2,91 +2,102 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Uma Mahesh Reddy | Data Scientist</title>
   <link rel="stylesheet" href="style.css" />
-  <link rel="icon" href="favicon.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 </head>
 <body>
   <header>
     <div class="container">
       <h1>Uma Mahesh Reddy</h1>
-      <p>Data Analyst & Aspiring Data Scientist</p>
+      <p><span id="typed"></span></p>
       <nav>
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
+        <a class="btn" href="UmaMahesh_Resume.pdf" target="_blank">📄 Resume</a>
       </nav>
-      <a href="UmaMahesh_Resume.pdf" class="btn" target="_blank">📄 Download Resume</a>
     </div>
   </header>
 
   <section id="about" class="section">
     <div class="container">
-      <h2>About Me</h2>
-      <p>I am a passionate Data Science enthusiast with strong skills in Python, SQL, and Power BI. I’ve built projects like Twitter Sentiment Analysis and Flight Fare Prediction. I’m eager to contribute to real-world solutions and explore AI and data-driven decision making.</p>
+      <h2>👨‍💻 About Me</h2>
+      <p>
+        I'm a passionate Data Scientist with strong skills in Python, SQL, Power BI, and Machine Learning.
+        I love solving real-world problems and have built projects in NLP, data visualization, and web deployment using Flask.
+      </p>
     </div>
   </section>
 
-  <section id="skills" class="section">
+  <section id="skills" class="section dark">
     <div class="container">
-      <h2>Skills</h2>
-      <ul class="skills-list">
-        <li>Python</li>
-        <li>SQL (MySQL)</li>
-        <li>Power BI</li>
-        <li>Pandas</li>
-        <li>NumPy</li>
-        <li>Matplotlib</li>
-        <li>Seaborn</li>
-        <li>Flask</li>
-        <li>Git & GitHub</li>
-      </ul>
+      <h2>🛠️ Skills</h2>
+      <div class="skills">
+        <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"/><p>Python</p></div>
+        <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"/><p>MySQL</p></div>
+        <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg"/><p>Pandas</p></div>
+        <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg"/><p>NumPy</p></div>
+        <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"/><p>Git</p></div>
+        <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg"/><p>Flask</p></div>
+      </div>
     </div>
   </section>
 
   <section id="projects" class="section">
     <div class="container">
-      <h2>Projects</h2>
+      <h2>📁 Projects</h2>
 
-      <div class="project-card">
-        <h3>Twitter Sentiment Analysis</h3>
+      <div class="project">
+        <h3>🔍 Twitter Sentiment Analysis</h3>
         <p>Performed NLP and Logistic Regression to classify tweets as Positive or Negative. Deployed using Flask.</p>
-        <p><strong>Tech Used:</strong> Python, NLTK, Flask</p>
-        <a href="https://github.com/umamahesh/twitter-sentiment" target="_blank">🔗 GitHub Repo</a>
+        <p><strong>Tools:</strong> Python, NLTK, Flask</p>
+        <a href="https://github.com/umamahesh01/twitter-sentiment" target="_blank">GitHub Repo</a>
       </div>
 
-      <div class="project-card">
-        <h3>Flight Fare Prediction</h3>
-        <p>Predicted flight ticket prices using regression models and feature engineering techniques.</p>
-        <p><strong>Tech Used:</strong> Python, Pandas, Sklearn</p>
-        <a href="https://github.com/umamahesh/flight-fare-prediction" target="_blank">🔗 GitHub Repo</a>
+      <div class="project">
+        <h3>✈️ Flight Fare Prediction</h3>
+        <p>Predicted flight ticket prices using regression models and feature engineering.</p>
+        <p><strong>Tools:</strong> Python, Pandas, Sklearn</p>
+        <a href="https://github.com/umamahesh01/flight-fare-prediction" target="_blank">GitHub Repo</a>
       </div>
 
-      <div class="project-card">
-        <h3>Power BI Sales Dashboard</h3>
-        <p>Visualized sales data with KPIs, regional performance, and product trends using Power BI.</p>
-        <p><strong>Tech Used:</strong> Power BI</p>
-        <a href="#" target="_blank">🔗 Power BI Report (optional)</a>
+      <div class="project">
+        <h3>📊 Power BI Sales Dashboard</h3>
+        <p>Created an interactive dashboard showing KPIs, trends, and sales performance insights.</p>
+        <p><strong>Tools:</strong> Power BI</p>
+        <a href="#" target="_blank">View Report</a>
       </div>
     </div>
   </section>
 
-  <section id="contact" class="section">
+  <section id="contact" class="section dark">
     <div class="container">
-      <h2>Contact</h2>
+      <h2>📬 Contact</h2>
       <p>Email: <a href="mailto:umamaheshreddy06981@gmail.com">umamaheshreddy06981@gmail.com</a></p>
       <p>Phone: 7075852256</p>
       <p>
-        <a href="https://www.linkedin.com/in/uma-mahesh-525249212" target="_blank">LinkedIn</a> | 
+        <a href="https://www.linkedin.com/in/uma-mahesh-525249212" target="_blank">LinkedIn</a> |
         <a href="https://github.com/umamahesh01" target="_blank">GitHub</a>
       </p>
     </div>
   </section>
 
   <footer>
-    <p>&copy; 2025 Uma Mahesh Reddy</p>
+    <p>&copy; 2025 Uma Mahesh Reddy. All Rights Reserved.</p>
   </footer>
+
+  <script>
+    new Typed('#typed', {
+      strings: ['Data Scientist', 'Python Developer', 'ML Enthusiast', 'Flask & NLP Projects'],
+      typeSpeed: 50,
+      backSpeed: 30,
+      loop: true
+    });
+  </script>
 </body>
 </html>
