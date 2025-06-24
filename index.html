@@ -2,103 +2,176 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Uma Mahesh Reddy | Data Scientist</title>
-  <link rel="icon" href="favicon.ico" />
-  <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet"/>
-  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Uma Mahesh Reddy | Portfolio</title>
+
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
 </head>
 <body>
-  <header>
-    <div class="container header-inner">
-      <h1>Uma Mahesh Reddy</h1>
-      <p><span id="typed"></span></p>
-      <nav>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-        <a class="btn" href="UmaMahesh_Resume.pdf" target="_blank">Resume</a>
-      </nav>
+  <header class="hero" data-aos="fade-down">
+    <div class="container">
+      <div class="intro">
+        <span class="hi">Hi,</span>
+        <h1 class="name">I'm Uma Mahesh Reddy</h1>
+      </div>
+      <p class="subtitle">
+        <span class="typing">I'm a Data Scientist</span>
+      </p>
     </div>
   </header>
 
-  <section id="about" class="section">
-    <div class="container">
-      <h2>👨‍💻 About Me</h2>
-      <p>I’m a passionate Data Scientist skilled in Python, SQL, ML, Power BI, and Flask. I love solving real-world problems and building polished applications—from user-facing NLP tools to interactive dashboards.</p>
-    </div>
-  </section>
-
-  <section id="skills" class="section dark">
-    <div class="container">
-      <h2>🛠 Skills</h2>
-      <div class="skills">
-        <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"/><p>Python</p></div>
-        <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"/><p>MySQL</p></div>
-        <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg"/><p>Pandas</p></div>
-        <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg"/><p>NumPy</p></div>
-        <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"/><p>Git</p></div>
-        <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg"/><p>Flask</p></div>
+  <main>
+    <section id="about" data-aos="fade-right">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>
+          I'm a Data Scientist with expertise in machine learning, statistical analysis, and AI-driven solutions.
+          Skilled in Python, SQL, and Power BI for data-driven decision-making and predictive modeling.
+          Experienced in handling large datasets, classification problems, and NLP applications.
+        </p>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="projects" class="section">
-    <div class="container">
-      <h2>📁 Projects</h2>
-
-      <div class="project">
-        <img src="images/twitter-sentiment.png" alt="Twitter Sentiment"/>
-        <h3>🔍 Twitter Sentiment Analysis</h3>
-        <p>NLP pipeline using Logistic Regression to classify tweets as Positive/Negative. Deployed with Flask.</p>
-        <p><strong>Tools:</strong> Python, NLTK, Flask</p>
-        <a href="https://github.com/umamahesh01/twitter-sentiment" target="_blank">GitHub</a>
+    <section id="skills" data-aos="fade-left">
+      <div class="container">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+          <li>Data Analysis</li>
+          <li>Data Science</li>
+          <li>Machine Learning</li>
+          <li>SQL</li>
+          <li>Power BI</li>
+          <li>Deep Learning</li>
+          <li>NLP</li>
+          <li>LLM</li>
+          <li>OpenCV</li>
+        </ul>
       </div>
+    </section>
 
-      <div class="project">
-        <img src="images/flight-fare.png" alt="Flight Fare Prediction"/>
-        <h3>✈️ Flight Fare Prediction</h3>
-        <p>Built regression model to accurately predict flight prices using feature engineering.</p>
-        <p><strong>Tools:</strong> Python, Scikit‑learn, Pandas</p>
-        <a href="https://github.com/umamahesh01/flight-fare-prediction" target="_blank">GitHub</a>
+    <section id="experience" data-aos="fade-up">
+      <div class="container">
+        <h2>Experience</h2>
+        <h3>Data Analyst Intern</h3>
+        <p><strong>Cognifyz Technologies | Oct 2024 - Nov 2024</strong></p>
+        <ul>
+          <li>Performed data collection, cleaning, and exploratory analysis.</li>
+          <li>Used Pandas & NumPy to analyze trends and patterns.</li>
+          <li>Created visualizations to support strategic planning.</li>
+        </ul>
       </div>
+    </section>
 
-      <div class="project">
-        <img src="images/powerbi-dashboard.png" alt="Power BI Dashboard"/>
-        <h3>📊 Power BI Sales Dashboard</h3>
-        <p>Interactive dashboard highlighting KPIs, sales trends, and insights using Power BI.</p>
-        <p><strong>Tools:</strong> Power BI</p>
-        <a href="#" target="_blank">View Report</a>
+    <section id="projects" data-aos="fade-up">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <img src="https://github.com/umamahesh01/portfolio/tree/main/image/face_img.webp" alt="Face Attendance System">
+          <div class="project-info">
+            <h3>Face Attendance System</h3>
+            <p>Real-time attendance using OpenCV, Python & Supabase – prevents duplicates and logs timestamps.</p>
+            <a href="https://github.com/umamahesh01/Face-Attendance-System" target="_blank" class="project-button">View Project</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="https://github.com/umamahesh01/portfolio/tree/main/image/Flight_img.jpeg" alt="Flight Fare Prediction">
+          <div class="project-info">
+            <h3>Flight Fare Prediction</h3>
+            <p>Predicts flight ticket prices using ML models on cleaned datasets.</p>
+            <a href="https://github.com/umamahesh06/python-projects/blob/main/Flight_Fare_Prediction.ipynb" target="_blank" class="project-button">View Project</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="https://github.com/umamahesh01/portfolio/tree/main/image/twitter_sentiment_img.jpeg" alt="Twitter Sentiment Analysis">
+          <div class="project-info">
+            <h3>Twitter Sentiment Analysis</h3>
+            <p>Classifies tweets as Positive or Negative using NLP and Logistic Regression.</p>
+            <a href="https://github.com/umamahesh01/Twitter-Sentiment-Analysis" target="_blank" class="project-button">View Project</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="https://github.com/umamahesh01/portfolio/tree/main/image/olympics_img.jpeg" alt="Olympic Dashboard">
+          <div class="project-info">
+            <h3>Paris Olympic Dashboard</h3>
+            <p>Interactive visualizations of Olympic events and country-wise performances.</p>
+            <a href="projects/paris-olympic-dashboard.html" target="_blank" class="project-button">View Project</a>
+          </div>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="contact" class="section dark">
-    <div class="container">
-      <h2>📬 Contact</h2>
-      <p>Email: <a href="mailto:umamaheshreddy06981@gmail.com">umamaheshreddy06981@gmail.com</a></p>
-      <p>Phone: 7075852256</p>
-      <p>
-        <a href="https://linkedin.com/in/uma-mahesh-525249212" target="_blank">LinkedIn</a> |
-        <a href="https://github.com/umamahesh01" target="_blank">GitHub</a>
-      </p>
-    </div>
-  </section>
+    <section id="education" data-aos="fade-right">
+      <div class="container">
+        <h2>Education</h2>
+        <ul>
+          <li>B.Tech in Computer Science, CGPA: 7.23<br>Malineni Perumallu Educational Society (2020 - 2024)</li>
+          <li>Intermediate, CGPA: 6.74<br>Sri Chaitanya Junior College (2018 - 2020)</li>
+          <li>SSC, CGPA: 9.7<br>Sri Viveka Public School (2017)</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="certificates" data-aos="fade-left">
+      <div class="container">
+        <h2>Certificates</h2>
+        <ul>
+          <li><a href="https://learn.365datascience.com/c/497b395f41" target="_blank">SQL Certification – 365DataScience</a></li>
+          <li><a href="https://courses.cognitiveclass.ai/certificates/438527fb3a0c408ab3b3fbca487d786f" target="_blank">Data Science with Python – IBM</a></li>
+          <li><a href="https://www.udemy.com/certificate/UC-0d7b9fef-c049-4949-8ab9-085757c70dc0/" target="_blank">Real-World Analytics – Udemy</a></li>
+          <li><a href="https://www.udemy.com/certificate/UC-adca44e1-60d1-4471-9c56-10e36398d3e0/" target="_blank">Power BI Visualization – Udemy</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" data-aos="fade-up">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:umamaheshreddy06981@gmail.com">umamaheshreddy06981@gmail.com</a></p>
+        <p>Phone: <a href="tel:+917075852256">7075852256</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/uma-mahesh-525249212" target="_blank">linkedin.com/in/uma-mahesh-525249212</a></p>
+      </div>
+    </section>
+  </main>
 
   <footer>
-    <p>&copy; 2025 Uma Mahesh Reddy</p>
+    <p>&copy; 2024 Uma Mahesh Reddy. All Rights Reserved.</p>
   </footer>
 
+  <!-- Typing effect -->
   <script>
-    new Typed('#typed', {
-      strings: ['Data Scientist','Data Analyst'],
-      typeSpeed: 60,
-      backSpeed: 40,
-      loop: true
-    });
+    const roles = ["Data Scientist", "Data Analyst"];
+    const prefix = "I'm a ";
+    let typingElement = document.querySelector('.typing');
+    let currentRoleIndex = 0;
+    let charIndex = 0;
+    let isDeleting = false;
+
+    function typeEffect() {
+      const fullText = roles[currentRoleIndex];
+      const displayText = isDeleting ? fullText.substring(0, charIndex--) : fullText.substring(0, charIndex++);
+      typingElement.textContent = prefix + displayText;
+
+      let delay = isDeleting ? 60 : 100;
+
+      if (!isDeleting && charIndex === fullText.length + 1) {
+        delay = 1200;
+        isDeleting = true;
+      } else if (isDeleting && charIndex === 4) {
+        delay = 400;
+        isDeleting = false;
+        currentRoleIndex = (currentRoleIndex + 1) % roles.length;
+      }
+
+      setTimeout(typeEffect, delay);
+    }
+
+    typeEffect();
   </script>
+
+  <!-- AOS animation -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>AOS.init({ duration: 1000, once: true });</script>
 </body>
 </html>
